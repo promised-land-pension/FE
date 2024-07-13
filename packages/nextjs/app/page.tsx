@@ -4,6 +4,7 @@ import { ChangeEvent, useState } from "react";
 // import Link from "next/link";
 import { CFAv1ForwarderAbi } from "../assets/CFAv1ForwarderAbi";
 import { PensionsAbi } from "../assets/PensionsAbi";
+import "../styles/page.css";
 // import * as TIME_ABI from "../assets/timeAbi";
 import {
   Box,
@@ -76,18 +77,17 @@ const PageContent = () => {
   return (
     <>
       <Box textAlign="center" className="box-container">
-        <div className="left">
-          <div className="container top-left">
-            <h1>Game rules</h1>
-            <ul>
-              <li>Default Retirement Age increases every time someone retires.</li>
-              <li>People that get to the age compete for the slot.</li>
-              <li>The slot goes to the one that got the most money in out of the applicants.</li>
-              <li>The ones that don’t get the slot have to start over.</li>
-              <li>The more people you bring in, the more money you make.</li>
-              <li>The more money you contribute, the earlier you can retire.</li>
-            </ul>
-          </div>
+        <div className="container">
+          <h1>Welcome to your new life</h1>
+          <h1>Game rules</h1>
+          <ul>
+            <li>Default Retirement Age increases every time someone retires.</li>
+            <li>People that get to the age compete for the slot.</li>
+            <li>The slot goes to the one that got the most money in out of the applicants.</li>
+            <li>The ones that don’t get the slot have to start over.</li>
+            <li>The more people you bring in, the more money you make.</li>
+            <li>The more money you contribute, the earlier you can retire.</li>
+          </ul>
         </div>
         <div className="right">
           <div className="container top-right">
